@@ -1,6 +1,6 @@
 {
     "name": "burgos-masks",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "custom hooks for commonly used masks",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
