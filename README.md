@@ -57,8 +57,8 @@ export const App = () => {
 }
 ```
 
-##### usePhoneMask
-returns a CNPJ formated mask
+##### useCpfMask
+returns a CPF formated mask
 
 ```jsx
 import { useCpfNumberMask } from 'burgos-masks'
@@ -80,7 +80,7 @@ export const App = () => {
 ```
 
 ##### usePhoneMask
-returns a CNPJ formated mask
+returns a phone formated mask
 
 ```jsx
 import { usePhoneMask } from 'burgos-masks'
