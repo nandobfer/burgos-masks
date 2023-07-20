@@ -35,25 +35,25 @@ export const App = () => {
 }
 ```
 
-##### useCepNumberMask
+##### useCepMask
 returns a CEP formated mask
 
 ```jsx
-import { useCepNumberMask } from 'burgos-masks'
+import { useCepMask } from 'burgos-masks'
 
 export const App = () => {
-    const mask = useCepNumberMask() ## "00.000-000"
+    const mask = useCepMask() ## "00.000-000"
 }
 ```
 
-##### useCnpjNumberMask
+##### useCnpjMask
 returns a CNPJ formated mask
 
 ```jsx
-import { useCnpjNumberMask } from 'burgos-masks'
+import { useCnpjMask } from 'burgos-masks'
 
 export const App = () => {
-    const mask = useCnpjNumberMask() ## "00.000.000/000-00"
+    const mask = useCnpjMask() ## "00.000.000/000-00"
 }
 ```
 
@@ -61,10 +61,20 @@ export const App = () => {
 returns a CPF formated mask
 
 ```jsx
-import { useCpfNumberMask } from 'burgos-masks'
+import { useCpfMask } from 'burgos-masks'
 
 export const App = () => {
-    const mask = useCpfNumberMask() ## "000.000.000-00"
+    const mask = useCpfMask() ## "000.000.000-00"
+}
+
+##### useDocumentMask
+returns a Document formated mask
+
+```jsx
+import { useDocumentMask } from 'burgos-masks'
+
+export const App = () => {
+    const mask = useDocumentMask()
 }
 ```
 
