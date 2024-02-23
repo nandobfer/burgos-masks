@@ -7,6 +7,7 @@ interface params {
     decimalSymbol?: string
     allowDecimal?: boolean
     decimalLimit?: number
+    requireDecimal?: boolean
 }
 
 export const useCurrencyMask = (options?: params) => {
@@ -18,6 +19,7 @@ export const useCurrencyMask = (options?: params) => {
         decimalSymbol: options?.decimalSymbol || ",",
         allowDecimal: options?.allowDecimal || true,
         decimalLimit: options?.decimalLimit || 2,
+        requireDecimal: options?.requireDecimal || false,
     })
 
     return currencyMask
